@@ -1,4 +1,1 @@
-# programando_con_python
-# holaa
-# logre sincronizar todo bienaaaaaaa
-# abriendo desde workspace
+# Area de trabajo dedicada a estudiar Python
