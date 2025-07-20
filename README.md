@@ -1,1 +1,1 @@
-# Area de trabajo dedicada a estudiar Pythonaa
+# Area de trabajo dedicada a estudiar Python
