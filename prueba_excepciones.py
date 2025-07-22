@@ -14,10 +14,14 @@ def divide(num1,num2):
 		print("No es posible dividir entre cero.")
 		return "Operacion erronea"
 
-op1=(int(input("Introduce el primer n�mero: ")))
-
-op2=(int(input("Introduce el segundo n�mero: ")))		
-	
+while True: #try encerrado en un while para intentar nuevamente ingresar los valores
+	try:
+		op1=(int(input("Introduce el primer n�mero: ")))
+		op2=(int(input("Introduce el segundo n�mero: ")))	
+		break
+	except ValueError:
+		print("Los valores introducidos son incorrectos. Intente de nuevo.")
+		
 operacion=input("Introduce la operaci�n a realizar (suma,resta,multiplica,divide): ")
 
 if operacion=="suma":
